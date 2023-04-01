@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7499209467646926844}
   - component: {fileID: 9073995198939087548}
   - component: {fileID: -9119855979759880092}
-  - component: {fileID: 6561256209307296359}
+  - component: {fileID: 3278712675049659703}
   m_Layer: 0
   m_Name: CubePickup
   m_TagString: Untagged
@@ -130,8 +130,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.027266, y: 0.9839397, z: 0.93847334}
+  m_Center: {x: 0.06897086, y: -0.008030146, z: -0.004183829}
 --- !u!114 &-9119855979759880092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerStuck: {fileID: 0}
   cubeStackEffect: {fileID: 6680569955216581514}
---- !u!54 &6561256209307296359
+--- !u!54 &3278712675049659703
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -23,8 +23,8 @@ public class Cube : MonoBehaviour
 
 
 	void FixedUpdate()
-	{
-		if (Physics.Raycast(transform.position, direction, out hit, 1f))
+	{	
+		if (Physics.Raycast(transform.position, direction, out hit, 0.5f))
 		{
 			if (!isStack)
 			{
